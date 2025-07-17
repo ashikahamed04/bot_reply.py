@@ -3,7 +3,7 @@ import asyncio
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters
 
-BOT_TOKEN = os.getenv("7825581087:AAHwBuUtbRHJfHEYYuu5tuNCbxQ4x3-SPEQ")
+BOT_TOKEN = os.getenv("TOKEN")
 
 REPLY_TEXT = (
     "Please provide the correct movie/series name from Google with release year and required language.\n"
